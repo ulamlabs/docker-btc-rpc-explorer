@@ -17,4 +17,8 @@ docker build --build-arg version=2.0.0 -t ulamlabs/btc-rpc-explorer:latest .
 
 ## Usage
 
-Docker image supports the same environment variables as the app itself. Use [.env.sample](https://github.com/janoside/btc-rpc-explorer/blob/master/.env-sample) as reference.
+Docker image supports the same environment variables as the app itself. Use [.env.sample](https://github.com/janoside/btc-rpc-explorer/blob/master/.env-sample) as reference. Image is available on [Docker Hub](https://hub.docker.com/repository/docker/ulamlabs/btc-rpc-explorer).
+
+```
+docker pull ulamlabs/btc-rpc-explorer:latest
+```
